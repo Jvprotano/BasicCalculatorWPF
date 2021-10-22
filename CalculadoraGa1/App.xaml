@@ -1,7 +1,7 @@
 ﻿<Application x:Class="CalculadoraGa1.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:CalculadoraGa1.ViewModel"
+             xmlns:local="clr-namespace:CalculadoraGa1.Converter"
              StartupUri="/View/MainWindow.xaml">
     <Application.Resources>
         <local:ColorConverter x:Key="Converter"/>

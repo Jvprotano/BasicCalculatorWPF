@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace CalculadoraGa1.Model
 {
-    public class Item
+    public class ListItem
     {
         public string Operation { get; set; }
         public string Result { get; set; }
 
-        public Item(string operation, string result)
+        public ListItem(string operation, string result)
         {
             Operation = operation;
             Result = result;

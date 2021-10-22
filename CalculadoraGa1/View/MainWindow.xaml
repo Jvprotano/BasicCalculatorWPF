@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CalculadoraGa1.ViewModel"
+        xmlns:local="clr-namespace:CalculadoraGa1"
         xmlns:m="clr-namespace:CalculadoraGa1.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="460" Width="341">
@@ -34,7 +34,11 @@
         <Button Content="9" HorizontalAlignment="Left" Margin="206,165,0,0" VerticalAlignment="Top" Height="61" Width="66" Command="{Binding GetKeyboard}" CommandParameter="9"/>
         <Button x:Name="EqualButton" Content="=" HorizontalAlignment="Left" Margin="206,365,0,0" VerticalAlignment="Top" Height="61" Width="68" Command="{Binding ResultCommand}" Background="{Binding ElementName=TextResultado,Path=Text, Converter={StaticResource Converter}, ConverterParameter=Igual}"/>
         <Button Content="C" HorizontalAlignment="Left" Margin="58,365,0,0" VerticalAlignment="Top" Height="61" Width="68" Background="Red" Command="{Binding CleanResult}" />
-
-
+            <local:ListItemUserControl/>
     </Grid>
+
+    
+
+
+
 </Window>

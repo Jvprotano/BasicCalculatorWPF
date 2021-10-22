@@ -131,7 +131,7 @@ namespace CalculadoraGa1.ViewModel
         {
             get
             {
-                return _getKeyboard ?? (_getKeyboard = new RelayCommand<string>(_GetKeyboard));
+                return _getKeyboard ?? (_getKeyboard = new RelayCommand<string>(_GetKeyboardCommand));
             }
         }
 
@@ -139,7 +139,7 @@ namespace CalculadoraGa1.ViewModel
         { 
             get 
             { 
-                return _resultCommand ?? (_resultCommand = new RelayCommand(_Result)); 
+                return _resultCommand ?? (_resultCommand = new RelayCommand(_ResultCommand)); 
             }
         }
 
@@ -147,12 +147,12 @@ namespace CalculadoraGa1.ViewModel
         {
             get
             {
-                return _cleanResult ?? (_cleanResult = new RelayCommand(_CleanResult));
+                return _cleanResult ?? (_cleanResult = new RelayCommand(_CleanResultCommand));
             }
         }
 
         #region CommandMethods
-        public void _GetKeyboard(string param)
+        public void _GetKeyboardCommand(string param)
         {
             try
             {
@@ -166,7 +166,7 @@ namespace CalculadoraGa1.ViewModel
             }
         }
 
-        private void _Result()
+        private void _ResultCommand()
         {
             try
             {
@@ -179,7 +179,7 @@ namespace CalculadoraGa1.ViewModel
             }
         }
 
-        public void _CleanResult()
+        public void _CleanResultCommand()
         {
             try
             {
@@ -196,41 +196,4 @@ namespace CalculadoraGa1.ViewModel
         
 
     }
-
-    #region Converter
-    public class ColorConverter : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            SolidColorBrush cor1 = new SolidColorBrush();
-            SolidColorBrush cor2 = new SolidColorBrush();
-            switch (parameter)
-            {
-                case "TextBox":
-                    cor1 = Brushes.Purple;
-                    cor2 = Brushes.Transparent;
-                    break;
-
-                case "Igual":
-                    cor1 = Brushes.Green;
-                    cor2 = Brushes.White;
-                    break;
-            }
-            if (value != "")
-            {
-                return cor1;
-            }
-            else
-            {
-                return cor2;
-            }
-        }
-
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            throw new NotImplementedException();
-        }
-    }
-    #endregion
-
 }
