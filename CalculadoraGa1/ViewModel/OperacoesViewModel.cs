@@ -23,10 +23,17 @@ namespace CalculadoraGa1.ViewModel
         private ICommand _getKeyboard;
         private ICommand _cleanResult;
         private ListItem _listItem;
+        private List<ListItem> _items = new List<ListItem>();
 
         #endregion
 
         #region Propriedades
+        public List<ListItem> Items
+        {
+            get { return _items; }
+
+        }
+
         public ListItem ListItem
         {
             get { return _listItem; }
@@ -72,6 +79,7 @@ namespace CalculadoraGa1.ViewModel
         #region Construtores
         public OperacoesViewModel()
         {
+            _listItem = new ListItem("abc", "abc");
         }
         #endregion
 
@@ -182,6 +190,7 @@ namespace CalculadoraGa1.ViewModel
                 RecebeValores(Operacao);
                 var stringHistorico = new ListItem(Operacao, Resultado.ToString());
                 ListItem = stringHistorico;
+                Items.Add(stringHistorico);
                 Operacao = Resultado.ToString();
             }
             catch (Exception ex)
