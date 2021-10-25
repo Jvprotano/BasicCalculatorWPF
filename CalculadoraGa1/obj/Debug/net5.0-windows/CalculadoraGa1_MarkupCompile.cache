@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Usuário\source\repos\CalculadoraGa1\CalculadoraGa1\App.xaml
-21687987092
+282460419
 
-81866110248
+8-320327672
 197727541637
-ListItemUserControl.xaml;View\MainWindow.xaml;
+UserControls\ListItemUserControl.xaml;View\MainWindow.xaml;
 
 False
 

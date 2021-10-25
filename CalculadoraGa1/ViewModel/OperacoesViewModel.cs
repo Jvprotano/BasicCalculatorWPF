@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,10 +22,20 @@ namespace CalculadoraGa1.ViewModel
         private string _operacao;
         private ICommand _getKeyboard;
         private ICommand _cleanResult;
+        private ListItem _listItem;
 
         #endregion
 
         #region Propriedades
+        public ListItem ListItem
+        {
+            get { return _listItem; }
+            set
+            {
+                _listItem = value;
+                RaisePropertyChange();
+            }
+        }
         public string Operacao
         {
             get { return _operacao; }
@@ -171,9 +180,11 @@ namespace CalculadoraGa1.ViewModel
             try
             {
                 RecebeValores(Operacao);
+                var stringHistorico = new ListItem(Operacao, Resultado.ToString());
+                ListItem = stringHistorico;
                 Operacao = Resultado.ToString();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Operacao = ex.Message;
             }

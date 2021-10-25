@@ -8,6 +8,7 @@ namespace CalculadoraGa1.Model
 {
     public class ListItem
     {
+
         public string Operation { get; set; }
         public string Result { get; set; }
 
@@ -15,6 +16,9 @@ namespace CalculadoraGa1.Model
         {
             Operation = operation;
             Result = result;
+        }
+        public ListItem()
+        {
         }
     }
 }

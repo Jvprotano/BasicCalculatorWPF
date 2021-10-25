@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="ListItemUserControl.xaml.cs">
+    <Compile Update="UserControls\ListItemUserControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\MainWindow.xaml.cs">
@@ -15,7 +15,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="ListItemUserControl.xaml">
+    <Page Update="UserControls\ListItemUserControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\MainWindow.xaml">
