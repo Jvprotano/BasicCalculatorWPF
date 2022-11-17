@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "aZ8W2qfiE+2wn8VWtqTl2E0BkwHt5UBQHCebahOJQB8bH0tsRYK2khiFc3HP2r8yS5RbgqQIhMj3fm8sw2v/IA==",
+  "success": true,
+  "projectFilePath": "J:\\JotaVe\\GA\\repos\\CalculadoraWPF\\CalculadoraGa1\\CalculadoraGa1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jvpro\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MvvmLightLibs 5.4.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MvvmLightLibs",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
