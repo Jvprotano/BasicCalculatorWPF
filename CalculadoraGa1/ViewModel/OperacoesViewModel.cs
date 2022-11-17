@@ -31,7 +31,7 @@ namespace CalculadoraGa1.ViewModel
         public List<ListItem> Items
         {
             get { return _items; }
-
+            set { RaisePropertyChange(); }
         }
 
         public ListItem ListItem
@@ -144,6 +144,26 @@ namespace CalculadoraGa1.ViewModel
         #endregion
 
         #region ICommands
+        public ICommand getList
+        {
+            get
+            {
+                return _items ?? (_items = new RelayCommand<ListItem>(_GetList));
+            }
+        }
+
+        private List<ListItem> GetList()
+        {
+            try
+            {
+                return Items;
+            }
+            catch
+            {
+            }
+            
+        }
+
         public ICommand GetKeyboard
         {
             get
@@ -164,6 +184,7 @@ namespace CalculadoraGa1.ViewModel
         {
             get
             {
+
                 return _cleanResult ?? (_cleanResult = new RelayCommand(_CleanResultCommand));
             }
         }

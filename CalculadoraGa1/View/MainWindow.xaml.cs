@@ -21,9 +21,6 @@ namespace CalculadoraGa1
         public MainWindow()
         {
             InitializeComponent();
-            string[] lista = { "abc", "abc", "abcd" };
-            ItemsListView.ItemsSource = lista;
-
         }
     }
 }

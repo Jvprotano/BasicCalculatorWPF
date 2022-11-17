@@ -16,7 +16,7 @@
     </Window.Resources>
 
     <Grid Margin="0,0,-163,0">
-        <ListView x:Name="ItemsListView"  Height="500" Width="500">
+        <ListView x:Name="ItemsListView"  Height="500" Width="500" ItemsSource="{Binding ListItem}" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <local:ListItemUserControl ListItem="{Binding}" />

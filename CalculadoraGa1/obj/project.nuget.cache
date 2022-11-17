@@ -1,21 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "xp1eCpogZMHHd5AZAnaE8O6xN+wzaGnH9OOw1sMxL88vcvWXHqL19UDowtx78/RwBcoPLnUOLQMD+W67TTEfFA==",
+  "dgSpecHash": "aZ8W2qfiE+2wn8VWtqTl2E0BkwHt5UBQHCebahOJQB8bH0tsRYK2khiFc3HP2r8yS5RbgqQIhMj3fm8sw2v/IA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuário\\source\\repos\\CalculadoraGa1\\CalculadoraGa1\\CalculadoraGa1.csproj",
+  "projectFilePath": "J:\\JotaVe\\GA\\repos\\CalculadoraWPF\\CalculadoraGa1\\CalculadoraGa1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Usuário\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
-    "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512",
-    "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\jvpro\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'MvvmLightLibs 5.4.1.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'MvvmLightLibs 5.4.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "MvvmLightLibs",
       "targetGraphs": [
         "net5.0-windows7.0"

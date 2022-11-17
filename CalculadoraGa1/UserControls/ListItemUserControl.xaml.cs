@@ -34,17 +34,17 @@ namespace CalculadoraGa1
             }
         }
 
-        private int _width;
+        //private int _width;
 
-        public int Width
-        {
-            get { return _width; }
-            set
-            {
-                _width = value;
-                ListItem_Button.Width = _width;
-            }
-        }
+        //public int Width
+        //{
+        //    get { return _width; }
+        //    set
+        //    {
+        //        _width = value;
+        //        ListItem_Button.Width = _width;
+        //    }
+        //}
 
         public static readonly DependencyProperty CarDependency = DependencyProperty.Register("ListItem", typeof(ListItem), typeof(ListItemUserControl));
 

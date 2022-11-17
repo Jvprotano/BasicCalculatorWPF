@@ -50,3 +50,9 @@ C:\Users\Usuário\source\repos\CalculadoraGa1\CalculadoraGa1\obj\Debug\net5.0-wi
 C:\Users\Usuário\source\repos\CalculadoraGa1\CalculadoraGa1\obj\Debug\net5.0-windows\CalculadoraGa1.AssemblyInfo.cs
 C:\Users\Usuário\source\repos\CalculadoraGa1\CalculadoraGa1\obj\Debug\net5.0-windows\CalculadoraGa1.csproj.CoreCompileInputs.cache
 C:\Users\Usuário\source\repos\CalculadoraGa1\CalculadoraGa1\obj\Debug\net5.0-windows\CalculadoraGa1.genruntimeconfig.cache
+J:\JotaVe\GA\repos\CalculadoraWPF\CalculadoraGa1\obj\Debug\net5.0-windows\UserControls\ListItemUserControl.g.cs
+J:\JotaVe\GA\repos\CalculadoraWPF\CalculadoraGa1\obj\Debug\net5.0-windows\View\MainWindow.g.cs
+J:\JotaVe\GA\repos\CalculadoraWPF\CalculadoraGa1\obj\Debug\net5.0-windows\App.g.cs
+J:\JotaVe\GA\repos\CalculadoraWPF\CalculadoraGa1\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+J:\JotaVe\GA\repos\CalculadoraWPF\CalculadoraGa1\obj\Debug\net5.0-windows\CalculadoraGa1_MarkupCompile.cache
+J:\JotaVe\GA\repos\CalculadoraWPF\CalculadoraGa1\obj\Debug\net5.0-windows\CalculadoraGa1_MarkupCompile.lref
